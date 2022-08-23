@@ -1,0 +1,27 @@
+$mini: 480;
+$xmini: 580;
+$xlmini: 680;
+$xsmall: 768;
+$small: 1024;
+$xnormal: 1366;
+$xlnormal: 1530;
+$normal: 1920;
+
+
+@mixin media($width) {
+  @media screen and (max-width: #{$width}px) {
+    @content;
+  }
+}
+
+@mixin mediaMin($width) {
+  @media screen and (min-width: #{$width}px) {
+    @content;
+  }
+}
+
+@mixin mediaMinMax($minWidth, $maxWidth) {
+  @media screen and (min-width: #{$minWidth}px) and (max-width: #{$maxWidth}px) {
+    @content;
+  }
+}

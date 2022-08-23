@@ -1,0 +1,11 @@
+const MIN_SYMBOL_INPUT = 5;
+const MIN_SYMBOL_INPUT_MESSAGE = 'Min 5 symbol';
+const REPEAT_PASSWORD_MESSAGE = 'Password does not match';
+const EMAIL_VALIDATE_MESSAGE = 'Email not validate';
+
+export {
+  MIN_SYMBOL_INPUT,
+  MIN_SYMBOL_INPUT_MESSAGE,
+  REPEAT_PASSWORD_MESSAGE,
+  EMAIL_VALIDATE_MESSAGE,
+};

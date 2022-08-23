@@ -1,0 +1,34 @@
+.home-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__btn {
+        padding: 20px 35px;
+        color: #fff;
+        border-radius: 10px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        background-color: rgb(113, 138, 153);
+    }
+
+    &__input {
+        border: 1px solid #e5e9ea;
+        border-radius: 14px;
+        width: 300px;
+        height: 60px;
+        color: #314d61;
+        background-color: #fbfcfd;
+        padding: 14px 20px;
+        font-size: 1.0625rem;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 1px;
+        outline: none;
+        margin-bottom: 20px;
+    }
+}                           
